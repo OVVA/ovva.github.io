@@ -1123,6 +1123,7 @@ ul:last-child {
 .bg--dark .menu-horizontal > li > a:hover,
 .bg--dark .menu-horizontal > li > span:hover {
   color: #fff;
+  text-decoration: underline;
 }
 .menu-vertical {
   width: 100%;
