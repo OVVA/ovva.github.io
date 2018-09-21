@@ -16,65 +16,67 @@
         <link href="css/font.css" rel="stylesheet" type="text/css">
     </head>
     <body data-smooth-scroll-offset="77">
+        <a id="start"></a>
         <div class="nav-container">
-            <div class="bar bar--sm visible-xs">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-3 col-sm-2">
-                            <a href="/">
-                                <img class="logo logo-dark" alt="logo" src="img/ovva.svg" />
-                                <img class="logo logo-light" alt="logo" src="img/ovva_logo.png" />
-                            </a>
-                        </div>
-                        <div class="col-xs-9 col-sm-10 text-right">
-                            <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
-                                <i class="icon icon--sm stack-interface stack-menu"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <nav id="menu1" class="bar bar-1 hidden-xs bar--absolute bar--transparent">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-1 col-sm-2 hidden-xs">
-                            <div class="bar__module">
-                                <a href="/">
-                                    <img class="logo logo-dark" alt="logo" src="img/ovva.svg" />
-									<img class="logo logo-light" alt="logo" src="img/ovva_logo.png" />
+            <div>
+                <div class="bar bar--sm visible-xs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3 col-md-2">
+                                <a href="/"> 
+                                    <img class="logo logo-dark" alt="OVVA logo" src="img/ovva.svg">
+                                    <img class="logo logo-light" alt="OVVA logo" src="img/ovva_logo.png">
                                 </a>
                             </div>
-                        </div>
-                        <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
-                            <div class="bar__module">
-                                <ul class="menu-horizontal text-left">
-                                    <li><a href="/">Home</a></li>
-                                    <li> <a href="contact.html">Contact</a> </li>
-                                    <li class="dropdown">
-                                        <span class="dropdown__trigger">More</span>
-                                        <div class="dropdown__container">
-                                            <div class="container">
-                                                <div class="row">
-                                                    <div class="dropdown__content col-md-2 col-sm-4">
-                                                        <ul class="menu-vertical">
-                                                            <li><a href="portfolio.html">Portfolio</a></li>
-                                                            <li><a href="pricing.html">Pricing</a></li>
-                                                            <li><a href="about.html">About</a></li>
-                                                        </ul>
-                                                    </div>                                            
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
+                            <div class="col-9 col-md-10 text-right">
+                                <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs hidden-sm"> <i class="icon icon--sm stack-interface stack-menu"></i> </a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </nav>
+                <nav id="menu1" class="bar bar-1 hidden-xs bg--dark">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-1 col-md-2 hidden-xs">
+                                <div class="bar__module">
+                                    <a href="/">
+                                        <img class="logo logo-dark" alt="OVVA logo" src="img/ovva.svg" />
+                                        <img class="logo logo-light" alt="OVVA logo" src="img/ovva_logo.png" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-11 col-md-12 text-right text-left-xs text-left-sm">
+                                <div class="bar__module">
+                                    <ul class="menu-horizontal text-left">
+                                        <li><a href="/">Home</a></li>
+                                        <li><a href="portfolio.html">Portfolio</a></li>
+                                        <li><a href="pricing.html">Pricing</a></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li> <a href="contact.html">Contact</a></li>
+                                        <!--li class="dropdown">
+                                            <span class="dropdown__trigger">More</span>
+                                            <div class="dropdown__container">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="dropdown__content col-md-2 col-sm-4">
+                                                            <ul class="menu-vertical">
+                                                                
+                                                            </ul>
+                                                        </div>                                            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li-->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
         </div>
         <div class="main-container">
-            <section class="imagebg videobg height-80 text-center" data-overlay="5"> 
+            <section class="imagebg videobg height-70 text-center" data-overlay="5"> 
                 <video autoplay="" loop="" muted=""><source src="video/Working-Space.mp4" type="video/mp4"></video>
                 <div class="background-image-holder"> <img alt="image" src="img/0100campus1.jpg"> </div>
                 <div class="container pos-vertical-center">
