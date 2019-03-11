@@ -21,10 +21,10 @@ $sendingAccountPassword     = 'Fliros28!';
 
 // Recipient (To:) Details  - Change this to the email details of who will receive all the emails from the website.
 $recipientEmail             = 'webmaster@ovva.sk'; // REQUIRED value.
-$recipientName              = 'WebMaster OVVA.sk'; // REQUIRED value.
+$recipientName              = 'WebMaster OVVA.eu'; // REQUIRED value.
 
 // Email details            - Change these to suit your website needs
-$emailSubject               = 'A message from OVVA.sk Website'; // REQUIRED value. Subject of the email that the recipient will see
+$emailSubject               = 'A message from OVVA.eu Website'; // REQUIRED value. Subject of the email that the recipient will see
 $websiteName                = 'OVVA - Websolutions for business';                // REQUIRED value. This is used when a name or email is not collected from the website form
 
 $timeZone                   = 'Slovakia/Bratislava';         // OPTIONAL, but some servers require this to be set. 
@@ -33,6 +33,16 @@ $timeZone                   = 'Slovakia/Bratislava';         // OPTIONAL, but so
 // Google reCAPTCHA
 $recaptchaSecretKey         = '18cb38cwucb73vo708r6vgshjcbwbfbcvueucbwg';
 $recaptchaErrorMessage      = 'There was a problem verifying the Google reCaptcha.  Please try again.';
+
+// Confirmation Message
+$sendConfirmationToUser     = false; // leave false to disable confirmation, or use path to an html email template.
+$confirmationSubject        = "Thanks for Contacting OVVA"; // The subject of the confirmation email
+$confirmationFromName       = "OVVA"; // Used in the "from" field of the email.
+$userEmailField             = "email";
+$defaultUserName            = "webmaster"; // Used if the form does not include a "name" field.
+
+// CSV
+$saveToCSV                  = "email_form.csv";
 
  /*----------------------------------------------------------------------------*\
 |*  You do not need to edit anything below this line, the rest is automatic.    *|
