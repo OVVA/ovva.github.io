@@ -1,0 +1,22 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+
+Redirect 301 /contact.html https://ovva.eu/contact.html
+Redirect 301 /portfolio.html https://ovva.eu/portfolio.html
+Redirect 301 /pricing.html https://ovva.sk/pricing.html
+Redirect 301 /about.html https://ovva.eu/about.html
+Redirect 301 /privacy-policy.html https://ovva.eu/privacy-policy.html
+Redirect 301 /legal.html https://ovva.eu/legal.html
+Redirect 301 /portfolio/jarvify.html https://ovva.eu/portfolio/jarvify.html
+Redirect 301 /portfolio/videoface.html https://ovva.eu/portfolio/videoface.html
+Redirect 301 /portfolio/aa.html https://ovva.eu/portfolio/aa.html
+Redirect 301 /portfolio/biodiary.html https://ovva.eu/portfolio/biodiary.html
+Redirect 301 /portfolio/sat.html https://ovva.eu/portfolio/sat.html
+Redirect 301 /portfolio/travelinvest.html https://ovva.eu/portfolio/travelinvest.html
+Redirect 301 /portfolio/slovnews.html https://ovva.eu/portfolio/slovnews.html
+Redirect 301 /portfolio/speroni.html https://ovva.eu/portfolio/speroni.html
+Redirect 301 /portfolio/dagny.html https://ovva.eu/portfolio/dagny.html
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
