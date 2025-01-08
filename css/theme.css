@@ -68,6 +68,9 @@ html {
     font-size: 81.25%;
   }
 }
+@media all and (max-width: 990px){
+  .logo.logo-light{ display: none; }
+}
 body {
   font-size: 1em;
   line-height: 1.85714286em;
@@ -4837,7 +4840,7 @@ section.parallax .row .background-image-holder {
     display: none;
   }
   .bar-4 .logo-dark {
-    margin-bottom: 1.85714286em;
+    margin-bottom: 1.35714286em;
   }
   .bar.bg--dark {
     background: #252525;
